@@ -1,0 +1,9 @@
+<mvc:View controllerName="sap.ui.demo.wt.controller.section"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <List headerText="Valores" class="sapUiResponsiveMargin" width="auto" items="{time>/Times}">
+        <items>
+            <ObjectListItem title="{time>tPROJ} x {time>start_ticket}"/>
+        </items>
+    </List>
+</mvc:View>

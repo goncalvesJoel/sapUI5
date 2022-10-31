@@ -1,0 +1,21 @@
+<mvc:View controllerName="sap.ui.demo.wt.controller.header" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    <Panel headerText="{i18n>helloPanelTitle}" class="sapUiResponsiveMargin">
+        <content>
+            <Button text="{i18n>download}" press="BTN_HEADER_Download_onShowHello" class="myAppDemoWT myCustomButton" />
+            <Input value="{/recipient/name}" valueLiveUpdate="true" width="60%" />
+            <Text text="Hello {/recipient/name}" class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText" />
+
+
+            <Button text="Counter Clik" press="BTN_counter" class="myAppDemoWT myCustomButton" />
+            <Text id="counter" text="0" />
+
+            <Button text="Counter Clik" press="BTN_counter_time" class="myAppDemoWT myCustomButton" />
+            <Text id="counter_time" text="0" />
+
+            <Button text="Counter Clik3" press="writeJson" class="myAppDemoWT myCustomButton" />
+        </content>
+        <content>
+            <Button id="displayNotFoundBtn" text="{i18n>DisplayNotFound}" press="onDisplayNotFound" class="sapUiTinyMarginEnd" />
+        </content>
+    </Panel>
+</mvc:View>
