@@ -11,7 +11,7 @@ sap.ui.define([
             // set data model on view
             var oData = {
                 recipient: {
-                    name: "World"ç
+                    name: "World"
                 }
             };
 
