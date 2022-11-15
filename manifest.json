@@ -75,7 +75,7 @@
                 }
             ],
             "targets": {
-                "home": {
+                "main": {
                     "viewName": "main",
                     "viewLevel": 1
                 },

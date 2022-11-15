@@ -11,7 +11,7 @@ sap.ui.define([
             // set data model on view
             var oData = {
                 recipient: {
-                    name: "World"
+                    name: "World"ç
                 }
             };
 
@@ -38,6 +38,15 @@ sap.ui.define([
             var sMsg = oBundle.getText("helloMsg", [sRecipient]);
             // show message
             MessageToast.show(sMsg);
+        },
+
+        BTN_NEXT_PAGE1: function (oEvent) {
+            // display the "notFound" target without changing the hash
+            this.getRouter().getTargets().display("notFound", {
+                fromTarget: "main"
+            });
+
+
         }
     });
 });
