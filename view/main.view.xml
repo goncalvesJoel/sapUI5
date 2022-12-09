@@ -5,8 +5,8 @@
             <Page title="{i18n>homePageTitle}" class="myCustomText">
                 <content>
                     <mvc:XMLView viewName="sap.ui.demo.wt.view.header"/>
-                    <mvc:XMLView viewName="sap.ui.demo.wt.view.section"/>
-                    <!-- <mvc:XMLView viewName="sap.ui.demo.wt.view.timeList"/> -->
+                     <mvc:XMLView viewName="sap.ui.demo.wt.view.section"/>
+                     <!-- <mvc:XMLView viewName="sap.ui.demo.wt.view.timeList"/> -->
                     <mvc:XMLView viewName="sap.ui.demo.wt.view.footer"/>
                 </content>
             </Page>
